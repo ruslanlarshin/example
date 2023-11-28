@@ -9,8 +9,6 @@ use \Catalog\{Price};
 
 class Send
 {
-  public const hostName = 'https://bitrix24.vitamax.ru/';
-  public const hostNameLignt = 'https://bitrix24.vitamax.ru';
   public const vitamaxCompanyId = 109;
   public const api = [
     'createOrder' => '/crestApi/b2b/createOrder.php',
