@@ -1,0 +1,52 @@
+.mainGridComponent .gridLine{
+    border: 1px solid black;
+    border-top: none;
+    width: fit-content;
+    background-color: white;
+}
+.mainGridComponent .gridItem{
+   padding: 10px 10px;
+    width: 100px;
+    min-width: 100px;
+}
+
+.mainGridComponent .gridItemid, .mainGridComponent .gridItemactive, .mainGridComponent .gridItemcode{
+    width: 70px;
+    min-width: 70px;
+}
+.mainGridComponent .gridItemname{
+    min-width: 200px;
+}
+.mainGridComponent {
+    max-width: 100%;
+}
+.mainGridComponent .gridScroll{
+    overflow-x: auto;
+  //  max-width: 1200px;
+}
+.mainGridComponent .gridLine.header{
+    border-top: 1px solid black !important;
+    background-color: var(--color-main) !important;
+    color: white!important;
+}
+.pager .pagerItem{
+    min-width: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    color: white;
+    background-color: var(--color-main);
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 5px;
+}
+.mainGridComponent .pager .pagerItem.active{
+    opacity: 0.7 ;
+    cursor: default  !important;
+}
+.mainGridComponent .pager{
+    margin-top: 10px;
+}
